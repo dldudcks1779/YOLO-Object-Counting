@@ -20,23 +20,15 @@
 * #### imutils
   * ##### 설치 : sudo pip3 install imutils
 ---
-## YOLO 이미지 객체 인식 시스템(YOLO Image Object Detection System)
-* #### 이미지를 저장하지 않을 경우
-  * sudo python3 yolo_object_detection_image.py --input 이미지 경로
-    * 예) sudo python3 yolo_object_detection_image.py --input ./test_image/test_image_1.jpg
-* #### 이미지를 저장할 경우
-  * sudo python3 yolo_object_detection_image.py --input 이미지 경로 --output 저장할 이미지 경로
-    * 예) sudo python3 yolo_object_detection_image.py --input ./test_image/test_image_1.jpg --output ./result_image/result_image_1.jpg
----
-## 실시간 YOLO 객체 인식 시스템(Real-Time YOLO Object Detection System) - 웹캠 또는 동영상(webcam or video)
+## YOLO 객체 카운팅 시스템(YOLO Object Counting System)
 * #### 비디오를 저장하지 않을 경우
-  * webcam : sudo python3 real_time_yolo_object_detection.py
-    * 예) sudo python3 real_time_yolo_object_detection.py
-  * video : sudo python3 real_time_yolo_object_detection.py --input 비디오 경로
-    * 예) sudo python3 real_time_yolo_object_detection.py --input ./test_video/test_video_1.mp4
+  * webcam : sudo python3 yolo_object_counting.py
+    * 예) sudo python3 yolo_object_counting.py
+  * video : sudo python3 yolo_object_counting.py --input 비디오 경로
+    * 예) sudo python3 yolo_object_counting.py --input test_video.mp4
 * #### 비디오를 저장할 경우
-  * webcam : sudo python3 real_time_yolo_object_detection.py --output 저장할 비디오 경로
-    * 예) sudo python3 real_time_yolo_object_detection.py --output ./result_video/result_video_1.avi
-  * video : sudo python3 real_time_yolo_object_detection.py --input 비디오 경로 --output 저장할 비디오 경로
-    * 예) sudo python3 real_time_yolo_object_detection.py --input ./test_video/test_video_1.mp4 --output ./result_video/result_video_1.avi
+  * webcam : sudo python3 yolo_object_counting.py --output 저장할 비디오 경로
+    * 예) sudo python3 yolo_object_counting.py --output result_video.avi
+  * video : sudo python3yolo_object_counting.py --input 비디오 경로 --output 저장할 비디오 경로
+    * 예) sudo python3 yolo_object_counting.py --input test_video.mp4 --output result_video.avi
 ---
