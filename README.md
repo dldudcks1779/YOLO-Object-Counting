@@ -1,6 +1,6 @@
 <div>
   <p align="center">
-    <img width="300" src="result_video.gif"> 
+    <img width="800" src="result_video.gif"> 
   </p>
 </div>
 
